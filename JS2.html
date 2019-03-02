@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+			var s = prompt('Vidstan`');
+			var xxxtentacion = prompt('Cena benza');
+			var n = prompt('skoka na km havait');
+			var oivey=0;
+			s = parseInt(s);
+			xxxtentacion = parseInt(xxxtentacion);
+			n = parseInt(n);
+			oivey = 2*n*s*xxxtentacion;
+			alert('Vartist` poizdky '+oivey+'hrn');
+	</script>
+	<script type="text/javascript">
+		var n = prompt('vvedi chislo daragoi');
+		n = parseInt(n);
+		if (n % 10 == 4||n % 10 ==5) {
+			alert('JAJA')
+		}
+		else {
+			alert('NEIN')
+		}
+	</script>
+	<script type="text/javascript">
+		var x = prompt('vvedzi chislo maladoi cheburashka');
+		x = parseInt(x);
+		if (x%3 == 0 && x%10 == 7) {
+			alert('YAYAYA')
+		}
+		else{
+			alert('NONONO')
+		}
+	</script>
+	<script type="text/javascript">
+		var n = prompt('chislo');
+		n = parseInt(n);
+		x = 0;
+		if (n%3 == 0) {
+			for (var i = 3; i <= n; i+=3) {
+				if (n%i==0) {
+					x+=1;
+				}
+			}
+		}
+		alert('kolichestvo delitelei kratnih 3='+x)
+	</script>	
+	<script type="text/javascript">
+		var m=prompt('Cheslo')
+		m=parseInt(m);
+		x= 0;
+		for (var i = 1; i <=m; i++) {
+			if(m%i == 0){
+				x++;
+			}
+		}
+		alert('Kolichesyvo deliteley= '+x);
+	</script>
+	<script type="text/javascript">
+		var x = prompt('kolichestvo bananov(kg)');
+		var m = prompt('kilk hrn za kg');
+		var n = prompt('kilk kop za kg');
+		var SUM = 0;
+		x = parseInt(x);
+		m = parseInt(m);
+		n = parseInt(n);
+		SUM = (m*100+n)*x;
+		alert('Stoimost` pokupki= '+SUM);
+	</script>
+	<script type="text/javascript">
+		var v = prompt('Skorast` v metrah za HV');
+		var t = prompt('Cas v gadinaX');
+		var L = 0;
+		v = parseInt(v);
+		t = parseInt(t);
+		L = v*t*60;
+		alert('kolichestvo metrov do magaza s pephkom= ' + L)
+	</script>
+</body>	
+</html>

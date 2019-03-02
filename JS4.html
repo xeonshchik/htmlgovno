@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var imya = prompt('Maladoy cheburek, kak vas zovut?');
+		alert('Tebya zovut - ' + imya)
+	</script>
+	<script type="text/javascript">
+		var a = prompt("Введите число а")
+   		a=parseInt(a);
+  		if ((a==0)||(a==2)){
+ 			var b = a+7; 
+  		} else{
+    		b = a/10;
+  		} 
+   		alert(b);
+	</script>
+	<script type="text/javascript">
+		var x = prompt("Vvedite a");
+    	var z = prompt("Vvedite b");
+    	x=parseInt(x);
+    	z=parseInt(z);
+    
+  		if ((x<=1)&&(z>=3)){
+    		var c = x+z;
+   		} else{
+    		c = x-z;
+   		}
+
+   		alert(c);
+	</script>
+	<script type="text/javascript">
+		var month = prompt('Vvedite nomer mesiaca( ot 1 do 12)');
+		month = parseInt(month);
+		switch(month){
+			case 12:
+			case 1:
+			case 2:
+			alert('Zima');
+			case 3:
+			case 4:
+			case 5:
+			alert('Vesna');
+			case 6:
+			case 7:
+			case 8:
+			alert('leto');
+			case 9:
+			case 10:
+			case 11:
+			alert('Otsosen`');
+			default:
+			alert('chislo ne vernoe, ti dawn');
+
+		}
+	</script>
+	<script type="text/javascript">
+		var A = prompt('vvedite 1uyu storonu');
+		var B = prompt('vvedite 2uyu storonu');
+		var C = prompt('vvedite 3uyu storonu');
+		A = parseInt(A);
+		B = parseInt(B);
+		C = parseInt(C);
+		if ((A+B>C)&&(A+C>B)&&(C+B>A)) {
+			if ((A*A+B*B==C*C)||(A*A+C*C==B*B)||(C*C+B*B==A*A)) {
+				alert('triangle pryamokutniy');
+			}
+			else{
+				alert('triangle isnuye, ale von ne pryamokutniy');
+			}
+		}
+		else{
+			alert('triangle ne isnuye, ti dawn');
+		}
+	</script>	
+	<script type="text/javascript">
+		var a = prompt('Cheslo');
+		a = parseInt(a);
+		switch(a){
+			case 0:
+			alert('chislo 0');
+			case 1:
+			case 2:
+			case 3:
+			case 5:
+			case 7:
+			alert('chislo prostoe');
+			case 4:
+			case 6:
+			case 8:
+			case 10:
+			alert('chislo parne');
+			default: 
+			alert('vi, dawn, vveli chislo 9 ili bol`she 10 ili ne vveli nichego'); 
+		}	
+	</script>
+	<script type="text/javascript">
+		var poragoda = prompt('Vvedite nomer pori goda( ot 1 do 4)');
+		poragoda = parseInt(poragoda);
+		switch(poragoda){
+			case 1:
+			alert('Zima');
+			case 2:
+			alert('Vesna');
+			case 3:
+			alert('leto');
+			case 4:
+			alert('Otsosen`');
+			default:
+			alert('chislo ne vernoe, ti dawn');
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var time = prompt('time=')
+		var seconds = time*60;
+		alert(seconds='seconds='+seconds)
+	</script>
+	<script type="text/javascript">
+		var a=prompt('a=');
+		a=parseInt(a);
+		var b=prompt('b=');
+		b=parseInt(b);
+		var P=2*(a+b)
+		alert('P='+P)
+	</script>
+	<script type="text/javascript">
+	var kvadr1 = prompt('Введите сторону квадрата №1')
+                kvadr1 = parseInt(kvadr1);
+                kvadr1 = kvadr1*kvadr1;
+    var kvadr2 = prompt('Введите сторону квадрата №2')
+                kvadr2 = parseInt(kvadr2);
+                kvadr2 = kvadr2*kvadr2;
+                if(kvadr1==kvadr2){
+                    alert('Квадраты равны!')
+                }
+                else { if(kvadr1>kvadr2){
+                var    rizn = kvadr1 / kvadr2
+                    rizn = parseInt(rizn);
+                    alert('Квадрат №1 больше в '+ rizn+' раза');
+                }
+                else{
+                    var rizn2 = kvadr2 / kvadr1
+                    rizn2 = parseInt(rizn2);
+                    alert('Квадрат №2 больше в '+ rizn2+' раза');
+                }
+                }
+	</script>
+	<script type="text/javascript">
+		var sm = prompt('sm=')
+		sm=parseInt(sm);
+		var mm = sm*10;
+		alert('mm='+mm)
+	</script>
+	<script type="text/javascript">
+		var a = prompt('Кількість яблук(кг)');
+		a=parseInt(a);
+		var b = prompt('Ціна за кг');
+		b=parseInt(b);
+		var ZV = a*b;
+		alert('Загальна вартість'+ZV);
+	</script>
+	<script type="text/javascript">
+		var a = prompt('Кількість зошитів');
+		a=parseInt(a);
+		var b = prompt('Ціна за шт.');
+		b=parseInt(b);
+		var ZVP1 = a*b;
+		var c = prompt('Кількість олівців');
+		c=parseInt(c);
+		var d = prompt('Ціна за шт.');
+		d=parseInt(d);
+		var ZVP2 = c*d;
+		ZVP=ZVP1+ZVP2;
+		alert('Загальна вартість='+ZVP);
+	</script>
+	<script type="text/javascript">
+		var km=prompt('Кількість кілометрів= ')
+		var m=prompt('Кількість метрів= ')
+		var sm=prompt('Кількість сантиметрів= ')
+		var sm1=km*100000;
+		var sm2=m*100;
+		var sm=sm*1;
+		var SMZ=sm2+sm1+sm;
+		alert('У сантиметрах '+SMZ)
+	</script>
+	<script type="text/javascript">
+		var a= prompt('Сторона квадрата ')
+		var KV_1=a*a;
+		var b= prompt('На скільки зменшити сторону ')
+		var KV_2=(a-b)*(a-b);
+		KV_3=KV_1-KV_2;
+		alert('На кільки зменшилась площа '+KV_3)
+		alert('Площа теперішньго квадрату '+KV_2)
+	</script>
+	<script type="text/javascript">
+		
+	</script>
+</body>
+</html>
